@@ -1,0 +1,60 @@
+/* Utility class */
+.default-color {
+    background: linear-gradient(to right, hsla(162, 14%, 28%, 0.719), hsla(157, 39%, 51%, 0.596));
+}
+/* Utility class */
+
+
+/* custom utility */
+/* hero part start */
+.carousel-caption {
+    bottom: 15.25rem;
+}
+#carouselExampleCaptions h1 {
+    font-family: "Amatic SC", system-ui;
+    font-weight: 700;
+    font-size: 80px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* hero part end */
+
+/* product section start */
+.card {
+    border: none;
+    border-radius: 0px;
+}
+.best-selling-product {
+    /* border: 1px solid hsla(0, 0%, 0%, 0.192); */
+    transition: .3s linear;
+
+    &:hover {
+        /* border: 1px solid hsla(0, 0%, 0%, 0.658); */
+        box-shadow: 1px 5px 5px hsla(0, 3%, 38%, 0.521);
+    }
+}
+/* product section end */
+
+/* breadcrumb start */
+.breadcrumb {
+    font-size: 20px;
+}
+/* breadcrumb end */
+
+/* Product details start */
+.product-item{
+    overflow: hidden;
+}
+.product-item img{
+    cursor: pointer;
+    transition: 1s linear;
+}
+.product-item img:hover{
+    transform: scale(1.5);
+}
+/* Product details end */
+
+
